@@ -1,0 +1,31 @@
+{
+  "name": "web-components",
+  "version": "0.0.1",
+  "description": "web components project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/web-components": "^6.3.7",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "lit-html": "^1.4.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
