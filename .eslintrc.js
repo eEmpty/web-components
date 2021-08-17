@@ -34,6 +34,5 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
-    'linebreak-style': 0,
   },
 };
