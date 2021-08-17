@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepare": "husky install",
     "lint": "eslint --ext .tsx,.ts,.js --fix ./"
   },
   "author": "",
@@ -32,6 +31,11 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{ts,js}": "eslint --cache --fix"
   }
